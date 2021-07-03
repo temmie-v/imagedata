@@ -5,9 +5,12 @@ Detecting boundaries of the image and calculate the area of each.
 
 このPythonプログラムは材料科学実験のX線回析のレポートのために作成しました．
 
+参考にした記事：[Python 図形の境界を検出して、各領域の面積を求める「OpenCV」](https://hk29.hatenablog.jp/entry/2021/04/10/184155)
+
 
 # 仕様
 - 実行のためには`os`，`cv2`，`numpy`，`scipy`，`pandas`のパッケージが必要です．適宜導入してください．
+- コマンドラインから`> python3 imagearea.py`のように実行することをお勧めします．
 - 最初に画像のファイルパスの入力を要求します．次のように入力してください：
   - 同じディレクトリにあれば`chart.bmp`のように名前のみ
   - そうでなければフルパス：`C:\Users\...\chart.bmp`
