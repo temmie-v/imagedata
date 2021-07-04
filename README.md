@@ -10,7 +10,7 @@ Detecting boundaries of the image and calculate the area of each.
 
 # 仕様
 - 実行のためには`os`，`cv2`，`numpy`，`scipy`，`pandas`のパッケージが必要です．適宜導入してください．
-- コマンドラインから`> python3 imagearea.py`のように実行することをお勧めします．
+- コマンドラインから`> python imagearea.py`のように実行することをお勧めします．
 - 最初に画像のファイルパスの入力を要求します．次のように入力してください：
   - 同じディレクトリにあれば`chart.bmp`のように名前のみ
   - そうでなければフルパス：`C:\Users\...\chart.bmp`
